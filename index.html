@@ -18,6 +18,57 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
+    <div class="container">
+        <div class="image-container">
+            <img src="img/work-at-home.webp" alt="Working at home with pet">
+        </div>
+        <img src="img/logo.svg" alt="Remote.ly Logo" class="logo">
+            <h1>Make every day 'bring your pet to work' day.</h1>
+            <p>Our award-winning platform lets you take your work on the go, wherever life may lead you. 
+                Sign up now to securely connect to clients, no matter where you are.</p>
+        <div class="form-container">
+            <div class="cta">Try it free for 7 days, with plans starting at $25/month.</div>
+            <form>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="password-again">Password (Again!)</label>
+                    <input type="password" id="password-again" name="password-again" required>
+                </div>
+                <p>Your password must contain at least one uppercase letter, one lowercase letter, and one number.</p>
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="business-type">Business Type</label>
+                    <select id="business-type" name="business-type">
+                        <option value="sole-proprietorship">Sole Proprietorship</option>
+                        <!-- Add other business types here -->
+                    </select>
+                </div>
+                <button type="submit">Claim Your Free Trial</button>
+            </form>
+            <p>By signing up, you agree to our <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</p>
+        </div>
+    </div>
 </body>
 </html>

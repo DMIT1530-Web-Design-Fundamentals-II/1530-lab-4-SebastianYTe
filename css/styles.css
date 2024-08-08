@@ -1,3 +1,13 @@
+/* ON YOUR OWN
+
+    Write a special media query that only applies to the two smallest screen sizes. In these layouts, the brand (the logo and name of the company should):
+
+    1. be positioned at the top of the page
+    2. have white text
+    3. have a drop-shadow on the text
+
+*/
+
 :root {
     --black: #11151f;
     --dark-grey: #d4d4d4;
@@ -14,14 +24,92 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-container {
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.cta {
+    background-color: #ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 
-/* ON YOUR OWN
-
-    Write a special media query that only applies to the two smallest screen sizes. In these layouts, the brand (the logo and name of the company should):
-
-    1. be positioned at the top of the page
-    2. have white text
-    3. have a drop-shadow on the text
-
-*/
